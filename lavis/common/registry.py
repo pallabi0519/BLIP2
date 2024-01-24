@@ -234,6 +234,7 @@ class Registry:
 
     @classmethod
     def get_model_class(cls, name):
+        print(cls)
         return cls.mapping["model_name_mapping"].get(name, None)
 
     @classmethod
