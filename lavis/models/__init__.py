@@ -10,6 +10,7 @@ import torch
 from omegaconf import OmegaConf
 from lavis.common.registry import registry
 
+'''
 from lavis.models.base_model import BaseModel
 
 from lavis.models.albef_models.albef_classification import AlbefClassification
@@ -53,7 +54,7 @@ from lavis.models.clip_models.model import CLIP
 from lavis.models.gpt_models.gpt_dialogue import GPTDialogue
 
 from lavis.processors.base_processor import BaseProcessor
-
+'''
 
 __all__ = [
     "load_model",
